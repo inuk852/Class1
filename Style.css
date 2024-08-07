@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: ;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    background-color: red;
+    height: 85px;
+    padding: 10px;
+    padding-left: 45px;
+    padding-right: 60px;
+    align-items: center;
+    box-shadow: 0 0 30px 15px;
+}
+
+ul{
+    display: flex;
+    gap: 40px;
+}
+
+ul a{
+    color: white;
+}
+
+li :hover{
+    background-color: darkkhaki;
+}
